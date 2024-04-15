@@ -1,43 +1,48 @@
 
-![](https://www.lingx.com/wp-content/uploads/2021/07/QQ图片20210701174626.png)
+![](https://www.lingx.com/wp-content/uploads/2024/04/QQ20240415154120.png)
 
-## 项目介绍
+<p>
+    <img src="https://img.shields.io/badge/JDK-1.8+-green.svg"/>
+    <img src="https://img.shields.io/badge/License-Apache 2.0-green.svg"/>
+    <img src="https://img.shields.io/badge/QQ-283853318-blue"/>
+</p>
 
-即将开源最新版本，敬请期待
+# 项目介绍
+* 基于Netty4.1，实现JT808协议、JT1078协议、苏标、粤标的消息处理，与编码解码。
+* 包含前后端数据库，下载即可运行的车辆定位管理系统。
+* 支持在线报文抓取，方便分析终端上报的JT808原始报文。
 
+# 主要特性
+* 高并发、高稳定性，压测记录：https://blog.csdn.net/lingx_gps/article/details/136833506
+* 支持分包粘包处理，避免漏包、丢包。保证数据的可靠性。
+* 兼容2011、2013、2019协议版本，支持分包请求、分包应答及超时分包补传。
+* 提供绿色完整部署包，永久免费。
+
+# 协议支持
+|协议名称|版本|是否支持| 备注           |
+|---|---|---|--------------|
+|JT/T 808|2011|支持|
+|JT/T 808|2013|支持|
+|JT/T 808|2019|支持|
+|JT/T 1078|2016|支持| 需自建流媒体服务     |
+|T/JSATL 12(主动安全-苏标)|2017|支持| 需自建流媒体服务附件服务 |
+
+备注：
+1078协议支持音视频指令，流媒体服务需自行搭建。
+苏标主动安全全支持，附件服务器需自行搭建。
+
+# 代码仓库
+* Gitee仓库地址：[https://gitee.com/yezhihao/jt808-server/tree/master](https://gitee.com/yezhihao/jt808-server/tree/master)
+* Github仓库地址：[https://github.com/yezhihao/jt808-server/tree/master](https://github.com/yezhihao/jt808-server/tree/master)
+
+# 演示平台
 演示地址
-
-https://gps.lingx.com
-
+http://gps.lingx.com/
 账号:admin
-
 密码:123456
 
-定位设备入口
-
+终端设备接入
 IP：47.100.112.218
-
 端口：8808
 
-## 项目特色
-- 完整的前后端，可直接部署使用
-- JT808兼容2011、2013、2019部标协议版本，支持分包，支持版本标识；
-- 面向接口编程，易于扩展
-## 主要功能
-
-- 实时定位
-- 历史轨迹
-- 实时视频
-- 历史视频
-- 车辆列表
-- 分队管理
-- 用户组织
-- 权限管理
-
-## 运行环境
-- 操作系统：Windows系列/Linux系列/MacOS 32位或64位都可以
-- Java环境：JDK 1.8 32位或64位都可以
-- WEB容器：Tomcat 8.0 是我的开发环境，Jetty、JBoss等也是可以的，标准Servlet 2.5工程
-- 数据库：MySQL8.0
-- 浏览器：谷歌chrome、火狐Firefox
-> 我的开发环境是：win7(64位)+eclipse jee+JDK 1.8+Tomcat 8.0+ MySQL8.0
+最新的压力测试记录：https://blog.csdn.net/lingx_gps/article/details/136833506
