@@ -37,12 +37,15 @@
 
 # 演示平台
 演示地址
+
 http://gps.lingx.com/
+
 账号:admin
+
 密码:123456
 
 终端设备接入
-IP：47.100.112.218
-端口：8808
 
-最新的压力测试记录：https://blog.csdn.net/lingx_gps/article/details/136833506
+IP：47.100.112.218
+
+端口：8808
