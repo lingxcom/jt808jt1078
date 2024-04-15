@@ -32,8 +32,8 @@
 苏标主动安全全支持，附件服务器需自行搭建。
 
 # 代码仓库
-* Gitee仓库地址：[https://gitee.com/yezhihao/jt808-server/tree/master](https://gitee.com/yezhihao/jt808-server/tree/master)
-* Github仓库地址：[https://github.com/yezhihao/jt808-server/tree/master](https://github.com/yezhihao/jt808-server/tree/master)
+* Gitee仓库地址：[https://gitee.com/lingxcom/jt808](https://gitee.com/lingxcom/jt808)
+* Github仓库地址：[https://github.com/lingxcom/jt808](https://github.com/lingxcom/jt808)
 
 # 演示平台
 演示地址
