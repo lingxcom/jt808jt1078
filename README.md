@@ -1,22 +1,27 @@
 
-![](https://www.lingx.com/wp-content/uploads/2024/04/QQ20240415154120.png)
 
+![index](QQ20240415154120.png "index.png")
 <p>
     <img src="https://img.shields.io/badge/JDK-1.8+-green.svg"/>
     <img src="https://img.shields.io/badge/License-Apache 2.0-green.svg"/>
+    <img src="https://img.shields.io/badge/platform-linux%20|%20macos%20|%20windows-blue.svg" />
     <img src="https://img.shields.io/badge/QQ-283853318-blue"/>
 </p>
+基于部标JT808标准实现的开箱即用的车载监控平台，负责实现核心信令与设备管理后台部分，支持海康、大华、锐明、通立等品牌的终端设备接入。
+
 
 # 项目介绍
 * 基于Netty4.1，实现JT808协议、JT1078协议、苏标、粤标的消息处理，与编码解码。
-* 包含前后端数据库，下载即可运行的车辆定位管理系统。
-* 支持在线报文抓取，方便分析终端上报的JT808原始报文。
+* 提供绿色完整部署包，包含前后端数据库，下载即可运行的车辆定位管理系统。
 
 # 主要特性
+
 * 高并发、高稳定性，8核16G单网关支持高达13.6万终端接入，连续压测3天以上。
 * 支持分包粘包处理，避免漏包、丢包。保证数据的可靠性。
 * 兼容2011、2013、2019协议版本，支持分包请求、分包应答及超时分包补传。
-* 提供绿色完整部署包，永久免费。
+* 集成web界面，基于VUE2的Element UI开发的前端界面。
+* 支持点、线、面多种电子围栏
+* 支持在线报文抓取，方便分析终端上报的JT808原始报文。
 
 # 协议支持
 |协议名称|版本|是否支持| 备注           |
@@ -51,3 +56,11 @@ IP：47.100.112.218
 端口：8808
 
 最新压测记录：https://blog.csdn.net/lingx_gps/article/details/136833506
+
+
+![index](QQ20240415154120.png "index.png")
+![index](QQ20240415154208.png "index.png")
+![index](QQ20240415154242.png "index.png")
+![index](QQ20240415154340.png "index.png")
+![index](QQ20240415154628.png "index.png")
+![index](QQ20240415155210.png "index.png")
