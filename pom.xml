@@ -8,5 +8,6 @@
   <modules>
     <module>jt808-server</module>
     <module>jt808-html</module>
+    <module>protocol-gt06-server</module>
   </modules>
 </project>
