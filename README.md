@@ -36,6 +36,9 @@
 1078协议支持音视频指令，流媒体服务需自行搭建。
 苏标主动安全全支持，附件服务器需自行搭建。
 
+# 数据库H2
+开源项目数据库是采用h2，免安装，随java自动启动。
+
 # 代码仓库
 * Gitee仓库地址：[https://gitee.com/lingxcom/jt808](https://gitee.com/lingxcom/jt808)
 * Github仓库地址：[https://github.com/lingxcom/jt808](https://github.com/lingxcom/jt808)

@@ -1,0 +1,48 @@
+2024-05-09 11:15:59.463000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_data_20240509" already exists; SQL statement:
+CREATE TABLE `tgps_data_20240509` ( `id` int NOT NULL AUTO_INCREMENT, `car_id` varchar(32) NOT NULL, `alarm` int NOT NULL, `status` int NOT NULL, `acc` char(1) NOT NULL DEFAULT '0', `location` char(1) NOT NULL DEFAULT '0', `lat` decimal(10,7) NOT NULL, `lng` decimal(10,7) NOT NULL, `height` int NOT NULL, `speed` decimal(6,1) NOT NULL, `direction` smallint NOT NULL, `gpstime` char(14) NOT NULL, `systime` char(14) NOT NULL, `mileage` decimal(10,1) NOT NULL, `oil` decimal(6,1) DEFAULT '0.0', `txxh` int NOT NULL, `wxxh` int NOT NULL, `status_str` varchar(2000) DEFAULT NULL, `alarm_str` varchar(2000) DEFAULT NULL, PRIMARY KEY (`id`)) [42101-224]
+2024-05-09 11:15:59.479000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_data_20240510" already exists; SQL statement:
+CREATE TABLE `tgps_data_20240510` ( `id` int NOT NULL AUTO_INCREMENT, `car_id` varchar(32) NOT NULL, `alarm` int NOT NULL, `status` int NOT NULL, `acc` char(1) NOT NULL DEFAULT '0', `location` char(1) NOT NULL DEFAULT '0', `lat` decimal(10,7) NOT NULL, `lng` decimal(10,7) NOT NULL, `height` int NOT NULL, `speed` decimal(6,1) NOT NULL, `direction` smallint NOT NULL, `gpstime` char(14) NOT NULL, `systime` char(14) NOT NULL, `mileage` decimal(10,1) NOT NULL, `oil` decimal(6,1) DEFAULT '0.0', `txxh` int NOT NULL, `wxxh` int NOT NULL, `status_str` varchar(2000) DEFAULT NULL, `alarm_str` varchar(2000) DEFAULT NULL, PRIMARY KEY (`id`)) [42101-224]
+2024-05-09 11:16:22.194000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_mark_html" not found (candidates are: "TGPS_MARK_HTML"); SQL statement:
+select text,style,lat,lng from tgps_mark_html where status='1' [42103-224]
+2024-05-09 11:18:05.580000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_data_20240509" already exists; SQL statement:
+CREATE TABLE `tgps_data_20240509` ( `id` int NOT NULL AUTO_INCREMENT, `car_id` varchar(32) NOT NULL, `alarm` int NOT NULL, `status` int NOT NULL, `acc` char(1) NOT NULL DEFAULT '0', `location` char(1) NOT NULL DEFAULT '0', `lat` decimal(10,7) NOT NULL, `lng` decimal(10,7) NOT NULL, `height` int NOT NULL, `speed` decimal(6,1) NOT NULL, `direction` smallint NOT NULL, `gpstime` char(14) NOT NULL, `systime` char(14) NOT NULL, `mileage` decimal(10,1) NOT NULL, `oil` decimal(6,1) DEFAULT '0.0', `txxh` int NOT NULL, `wxxh` int NOT NULL, `status_str` varchar(2000) DEFAULT NULL, `alarm_str` varchar(2000) DEFAULT NULL, PRIMARY KEY (`id`)) [42101-224]
+2024-05-09 11:18:05.612000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_data_20240510" already exists; SQL statement:
+CREATE TABLE `tgps_data_20240510` ( `id` int NOT NULL AUTO_INCREMENT, `car_id` varchar(32) NOT NULL, `alarm` int NOT NULL, `status` int NOT NULL, `acc` char(1) NOT NULL DEFAULT '0', `location` char(1) NOT NULL DEFAULT '0', `lat` decimal(10,7) NOT NULL, `lng` decimal(10,7) NOT NULL, `height` int NOT NULL, `speed` decimal(6,1) NOT NULL, `direction` smallint NOT NULL, `gpstime` char(14) NOT NULL, `systime` char(14) NOT NULL, `mileage` decimal(10,1) NOT NULL, `oil` decimal(6,1) DEFAULT '0.0', `txxh` int NOT NULL, `wxxh` int NOT NULL, `status_str` varchar(2000) DEFAULT NULL, `alarm_str` varchar(2000) DEFAULT NULL, PRIMARY KEY (`id`)) [42101-224]
+2024-05-09 11:22:13.232000+08:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "CHARACTER VARYING to DECFLOAT"; SQL statement:
+select count(*) from tlingx_role_api where role_id=? and apicode=? [22018-224]
+2024-05-09 11:22:26.524000+08:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "CHARACTER VARYING to DECFLOAT"; SQL statement:
+select count(*) from tlingx_role_api where role_id=? and apicode=? [22018-224]
+2024-05-09 11:22:37.938000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "CHARACTER VARYING to DECFLOAT"; SQL statement:
+select count(*) from tlingx_role_api where role_id=? and apicode=? [22018-224]
+2024-05-09 11:22:47.024000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "CHARACTER VARYING to DECFLOAT"; SQL statement:
+select count(*) from tlingx_role_api where role_id=? and apicode=? [22018-224]
+2024-05-09 11:26:49.772000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_data_20240509" already exists; SQL statement:
+CREATE TABLE `tgps_data_20240509` ( `id` int NOT NULL AUTO_INCREMENT, `car_id` varchar(32) NOT NULL, `alarm` int NOT NULL, `status` int NOT NULL, `acc` char(1) NOT NULL DEFAULT '0', `location` char(1) NOT NULL DEFAULT '0', `lat` decimal(10,7) NOT NULL, `lng` decimal(10,7) NOT NULL, `height` int NOT NULL, `speed` decimal(6,1) NOT NULL, `direction` smallint NOT NULL, `gpstime` char(14) NOT NULL, `systime` char(14) NOT NULL, `mileage` decimal(10,1) NOT NULL, `oil` decimal(6,1) DEFAULT '0.0', `txxh` int NOT NULL, `wxxh` int NOT NULL, `status_str` varchar(2000) DEFAULT NULL, `alarm_str` varchar(2000) DEFAULT NULL, PRIMARY KEY (`id`)) [42101-224]
+2024-05-09 11:26:49.801000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_data_20240510" already exists; SQL statement:
+CREATE TABLE `tgps_data_20240510` ( `id` int NOT NULL AUTO_INCREMENT, `car_id` varchar(32) NOT NULL, `alarm` int NOT NULL, `status` int NOT NULL, `acc` char(1) NOT NULL DEFAULT '0', `location` char(1) NOT NULL DEFAULT '0', `lat` decimal(10,7) NOT NULL, `lng` decimal(10,7) NOT NULL, `height` int NOT NULL, `speed` decimal(6,1) NOT NULL, `direction` smallint NOT NULL, `gpstime` char(14) NOT NULL, `systime` char(14) NOT NULL, `mileage` decimal(10,1) NOT NULL, `oil` decimal(6,1) DEFAULT '0.0', `txxh` int NOT NULL, `wxxh` int NOT NULL, `status_str` varchar(2000) DEFAULT NULL, `alarm_str` varchar(2000) DEFAULT NULL, PRIMARY KEY (`id`)) [42101-224]
+2024-05-09 11:29:07.412000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_data_20240509" already exists; SQL statement:
+CREATE TABLE `tgps_data_20240509` ( `id` int NOT NULL AUTO_INCREMENT, `car_id` varchar(32) NOT NULL, `alarm` int NOT NULL, `status` int NOT NULL, `acc` char(1) NOT NULL DEFAULT '0', `location` char(1) NOT NULL DEFAULT '0', `lat` decimal(10,7) NOT NULL, `lng` decimal(10,7) NOT NULL, `height` int NOT NULL, `speed` decimal(6,1) NOT NULL, `direction` smallint NOT NULL, `gpstime` char(14) NOT NULL, `systime` char(14) NOT NULL, `mileage` decimal(10,1) NOT NULL, `oil` decimal(6,1) DEFAULT '0.0', `txxh` int NOT NULL, `wxxh` int NOT NULL, `status_str` varchar(2000) DEFAULT NULL, `alarm_str` varchar(2000) DEFAULT NULL, PRIMARY KEY (`id`)) [42101-224]
+2024-05-09 11:29:07.440000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_data_20240510" already exists; SQL statement:
+CREATE TABLE `tgps_data_20240510` ( `id` int NOT NULL AUTO_INCREMENT, `car_id` varchar(32) NOT NULL, `alarm` int NOT NULL, `status` int NOT NULL, `acc` char(1) NOT NULL DEFAULT '0', `location` char(1) NOT NULL DEFAULT '0', `lat` decimal(10,7) NOT NULL, `lng` decimal(10,7) NOT NULL, `height` int NOT NULL, `speed` decimal(6,1) NOT NULL, `direction` smallint NOT NULL, `gpstime` char(14) NOT NULL, `systime` char(14) NOT NULL, `mileage` decimal(10,1) NOT NULL, `oil` decimal(6,1) DEFAULT '0.0', `txxh` int NOT NULL, `wxxh` int NOT NULL, `status_str` varchar(2000) DEFAULT NULL, `alarm_str` varchar(2000) DEFAULT NULL, PRIMARY KEY (`id`)) [42101-224]
+2024-05-09 11:32:55.460000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_data_20240509" already exists; SQL statement:
+CREATE TABLE `tgps_data_20240509` ( `id` int NOT NULL AUTO_INCREMENT, `car_id` varchar(32) NOT NULL, `alarm` int NOT NULL, `status` int NOT NULL, `acc` char(1) NOT NULL DEFAULT '0', `location` char(1) NOT NULL DEFAULT '0', `lat` decimal(10,7) NOT NULL, `lng` decimal(10,7) NOT NULL, `height` int NOT NULL, `speed` decimal(6,1) NOT NULL, `direction` smallint NOT NULL, `gpstime` char(14) NOT NULL, `systime` char(14) NOT NULL, `mileage` decimal(10,1) NOT NULL, `oil` decimal(6,1) DEFAULT '0.0', `txxh` int NOT NULL, `wxxh` int NOT NULL, `status_str` varchar(2000) DEFAULT NULL, `alarm_str` varchar(2000) DEFAULT NULL, PRIMARY KEY (`id`)) [42101-224]
+2024-05-09 11:32:55.489000+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "tgps_data_20240510" already exists; SQL statement:
+CREATE TABLE `tgps_data_20240510` ( `id` int NOT NULL AUTO_INCREMENT, `car_id` varchar(32) NOT NULL, `alarm` int NOT NULL, `status` int NOT NULL, `acc` char(1) NOT NULL DEFAULT '0', `location` char(1) NOT NULL DEFAULT '0', `lat` decimal(10,7) NOT NULL, `lng` decimal(10,7) NOT NULL, `height` int NOT NULL, `speed` decimal(6,1) NOT NULL, `direction` smallint NOT NULL, `gpstime` char(14) NOT NULL, `systime` char(14) NOT NULL, `mileage` decimal(10,1) NOT NULL, `oil` decimal(6,1) DEFAULT '0.0', `txxh` int NOT NULL, `wxxh` int NOT NULL, `status_str` varchar(2000) DEFAULT NULL, `alarm_str` varchar(2000) DEFAULT NULL, PRIMARY KEY (`id`)) [42101-224]
+2024-05-09 11:33:18.950000+08:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "CHARACTER VARYING to DECFLOAT"; SQL statement:
+select count(*) from tlingx_role_api where role_id=? and apicode=? [22018-224]
