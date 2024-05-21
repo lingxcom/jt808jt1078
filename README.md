@@ -67,6 +67,10 @@
 | 主动安全-DSM |-|✔| -          |
 | 主动安全-BSD |-|✔| -          |
 | 主动安全-TPMS |-|✔| -          |
+# 商业版-支持视频、语音、对讲、二次开发
+安装包下载（包含安装说明）
+https://pan.baidu.com/s/1zUx8qCiROYQc4G_HnjRquw?pwd=z22s
+
 # 演示平台
 演示地址
 
