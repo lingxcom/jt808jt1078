@@ -71,6 +71,9 @@
 安装包下载（包含安装说明）
 https://pan.baidu.com/s/1zUx8qCiROYQc4G_HnjRquw?pwd=z22s
 
+开放API说明
+https://www.lingx.com/archives/361.html
+
 # 演示平台
 演示地址
 
