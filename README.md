@@ -74,6 +74,7 @@ https://pan.baidu.com/s/1zUx8qCiROYQc4G_HnjRquw?pwd=z22s
 开放API说明
 https://www.lingx.com/archives/361.html
 
+商业版可以申请免费KEY（三个月时效），三个月后可重新申请，无限制申请次数。
 # 演示平台
 演示地址
 
